@@ -70,23 +70,35 @@ GPT AI Assistant 是基於 OpenAI API 與 LINE Messaging API 實作的範例應�
 
 ## 除錯
 
-首先在 Vercel 平台上檢查專案的環境變數是否填寫正確。
+首先，在 Vercel 平台上檢查專案的環境變數是否填寫正確。
 
 <p align="center">
   <img src="demo/vercel-environments.png" width="300"/>
 </p>
 
-如果有進行變更，點選「Redeploy」按鈕，以重新部署。
+如果有變更，點選「Redeploy」按鈕，以重新部署。
 
 <p align="center">
   <img src="demo/vercel-redeploy.png" width="300"/>
 </p>
 
-進一步的除錯方式是，點選「View Function Logs」按鈕，以查看應用程式的錯誤訊息。
+進一步的除錯方式是，在專案首頁點選「View Function Logs」按鈕。
 
 <p align="center">
   <img src="demo/vercel-view-logs.png" width="300"/>
 </p>
+
+查看應用程式的錯誤訊息。
+
+<p align="center">
+  <img src="demo/vercel-logs.png" width="300"/>
+</p>
+
+如果還是無法解決，請到「[Issues](https://github.com/memochou1993/gpt-ai-assistant/issues)」頁面，點選「New issue」按鈕，描述你的問題，並附上螢幕截圖。
+
+## 功能建議
+
+請到「[Issues](https://github.com/memochou1993/gpt-ai-assistant/issues)」頁面，點選「New issue」按鈕，描述你的功能建議。
 
 ## 開發
 
@@ -211,3 +223,7 @@ AI: 你是一個人，一個有意識的生物！
 <a href="https://github.com/memochou1993/gpt-ai-assistant/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=memochou1993/gpt-ai-assistant" />
 </a>
+
+## 授權條款
+
+[MIT](LICENSE)
